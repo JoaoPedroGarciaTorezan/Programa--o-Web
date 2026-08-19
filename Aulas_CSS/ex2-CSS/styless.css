@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans SC';
+}
+
+header{
+    background-color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 3rem;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+main {
+    background-color: rgb(232, 214, 191);
+    min-height: 95vh;
+}
+
+h1{
+    text-align: center;    
+}
+form{
+    border: 1px solid black;
+    width: 40%;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+   background-color: rgb(232, 214, 191);
+}
