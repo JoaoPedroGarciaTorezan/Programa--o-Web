@@ -1,0 +1,35 @@
+#p-subtitulo{
+    color:green;
+}
+
+h1 {
+    color:blue;
+}
+p {
+    color:purple
+}
+/*Agrupar dados*/
+.card{
+    font-size: 25px;
+    text-align: center;
+    margin: 28px;
+    p{
+        color:black;
+        /*font-size: 32px;*/
+        font-size: 1rem;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 30px;
+    }
+    button {
+        background-color: blueviolet;
+        color: rgb(197, 178, 7);
+        font-weight: bold;
+        border: none;
+        border-radius: 1rem;
+        line-height: 1.5rem;
+    }
+    img{
+        width: 10%;
+    }
+}
