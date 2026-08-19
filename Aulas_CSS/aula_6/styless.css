@@ -1,13 +1,14 @@
 .container {
     border: 1px solid black;
     width: 300px;
+    margin: 0 auto;
     height: 200px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: end;
+    justify-content: start;
     gap: 1rem;
     padding-right: 0.5rem;
+    flex-wrap: wrap;
 }
 .item{
     border: 1px solid purple;
