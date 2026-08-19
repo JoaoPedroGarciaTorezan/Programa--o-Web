@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1 HTML- Formulários</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://unifei.edu.br/">UNIFEI</a></li>
+                <li><a href="https://proex.unifei.edu.br/">PROEX</a></li>
+                <li><a href="https://unifei.edu.br/evento/integra/">INTEGRA UNIFEI</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Formulário de Apresentação de Projetos de Extensão</h1>
+            <p>Nesse formulário sua equipe deverá preencher os dados do seu projeto de extensão
+            para que a PROEX possa distribuir os stands da forma mais adequada.
+            </p>
+        <form action="#">
+            <fieldset>
+                <legend>Identificação do Projeto</legend>
+
+                <label for="name">Nome do Projeto</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="quant">Quantidade de Integrantes</label>
+                <input type="number" name="quant" id="quant" min="1" required>
+
+                <label for="loc">Instituto de Localização</label>
+                <input type="text" name="loc" id="loc" required>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Área de Atuação</legend>
+                <p>Selecione apenas uma opção</p>
+
+                <input type="radio" name="area" id="web" value="web" required>
+                <label for="web">Aplicação Web/Mobile</label>
+
+                <input type="radio" name="area" id="jogos" value="jogos">
+                <label for="jogos">Desenvolvimento de Jogos</label>
+
+                <input type="radio" name="area" id="drones" value="drones">
+                <label for="drones">Drones</label>
+
+                <input type="radio" name="area" id="robos" value="robos">
+                <label for="robos">Competição de Robôs</label>
+
+                <input type="radio" name="area" id="cont" value="cont">
+                <label for="cont">Contabilidade</label>
+
+                <input type="radio" name="area" id="met" value="met">
+                <label for="met">Meteorologia</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Fomento</legend>
+                    <label for="fom">Tipo</label>
+                    <select name="fom" id="fom" required>
+                        <option value="" selected disabled>Selecione uma opção</option>
+                        <option value="emp">Empresa Júnior</option>
+                        <option value="proj">Projeto de Extensão</option>
+                        <option value="projSoc">Projetos Sociais</option>
+                    </select>
+            </fieldset>
+
+            <button>Enviar</button>
+        </form>
+
+    </main>
+    <footer>
+        Feito com &hearts; por João Pedro Garcia Torezan - 2025002063
+    </footer>
+</body>
+</html>
